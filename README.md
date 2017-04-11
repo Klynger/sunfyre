@@ -1,0 +1,1 @@
+# Sunfyre Indicator Extension

@@ -1,0 +1,53 @@
+table tbody tr:last-child a.link-type-player::before {
+	content: "Sunfyre friend: " !important;
+}
+
+
+.modal-sunfyre-content {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(100,100,100,0.4);
+}
+
+.modal-sunfyre-content .modal-container {
+	opacity: 1.0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	width: 35%;
+	background-color: #242F39;
+	border: solid 2px #00FF2F;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.modal-container p {
+	font-weight: 500;
+	font-size: 1.7rem;
+	margin: 5% 10%;
+}
+
+.modal-container p > strong {
+	color: #C23C2A;
+}
+
+.img-modal-sunfyre {
+	margin: 4%;
+	width: 100%;
+}
+
+.exit-modal-sunfyre {
+	position: absolute;
+	right: 5%;
+	top: 5%;
+	cursor: pointer;
+	font-size: 3rem;
+	font-weight: 600;
+	color: #C23C2A;
+}
